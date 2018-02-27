@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-weight: 300 !important;
+}
+#app {
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    width: 325px;
+}
+#app #editField{
+    visibility: hidden;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#editField input {
+    width: 335px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+input {
+    padding: 8px 5px;
+    margin: 10px 0;
+    width: 280px;
+    border-radius: 5px; 
+    border: 1px solid #bbb;
+}
+form h1, form p{
+    padding: 0;
+    margin: 0;
+}
+form p {
+    margin-bottom: 5px;
+}
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li {
+    padding: 8px 5px;
+    padding-left: 10px;
+}
+i.close {
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em;    
+    align-content: center;
+}
+i.editButton {
+    padding-right: 5px;
+}
+/* li:hover .close{
+    color: #ff0000;
+}
+li:hover {
+    background-color: #eee;
+    border-radius: 5px;
+} */
+#filterInput {
+    width: 280px;
+}
+#splashScreen {
+    margin: 0;
+    width: 450px;
+    margin: 200px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 50px;
+}
+#splashScreen a {
+    float: right;
+    text-decoration: none;
+    align-content: center;
+    color: #ff69b4;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+a i {
+    vertical-align: middle;
+    font-size: 20px !important;
+}
+form a {
+    color: #ff69b4;
+    text-decoration: none;
+}

@@ -1,0 +1,7 @@
+<input type="text" placeholder="Filter your to-dos" ng-model="todoFilter">
+<ol>
+    <li "hover-state" ng-repeat="task in $ctrl.formItem | filter: todoFilter track by $index" hover-state>{{ task.task }}
+        <i ng-click="$ctrl.deleteItem($ctrl.formItem[$index]);" class="material-icons close">close</i>
+        <i ng-click="$ctrl.editItem($ctrl.formItem[$index]);" class="material-icons close editButton" place-holder>mode_edit</i>   
+    </li>
+</ol>
